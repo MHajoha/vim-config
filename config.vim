@@ -1,7 +1,5 @@
 "" General
 set number	" Show line numbers
-set linebreak	" Break lines at word (requires Wrap lines)
-set textwidth=100	" Line wrap (number of cols)
 set showmatch	" Highlight matching brace
 set visualbell	" Use visual bell (no beeping)
  
@@ -21,4 +19,6 @@ set ruler	" Show row and column ruler information
  
 set undolevels=1000	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
+
+set laststatus=2
 
