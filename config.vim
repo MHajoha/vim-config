@@ -22,3 +22,9 @@ set backspace=indent,eol,start	" Backspace behaviour
 
 set laststatus=2
 
+" Enable syntax highlighting
+syntax on
+
+" Keep swap, backup and undo files from being created for gopass passwords
+au BufNewFile,BufRead /dev/shm/gopass.* setlocal noswapfile nobackup noundofile
+
